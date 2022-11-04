@@ -1,0 +1,90 @@
+.skills {
+  padding: 91px 0 111px 0;
+}
+.skills__title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.skills__subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 69px 0 83px 0;
+}
+.soft-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.soft__item {
+  display: flex;
+  max-width: 166px;
+  min-height: 206px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soft__item-svg {
+  width: 89px;
+  height: 89px;
+  margin-bottom: 24px;
+}
+.soft__item-name {
+  font-size: 14px;
+  color: #828282;
+}
+.rate-wrapper {
+  display: flex;
+  margin-top: auto;
+  gap: 0 9px;
+}
+
+.item__star {
+  width: 26px;
+  height: 26px;
+}
+
+.soft__item {
+  flex-direction: column;
+  max-width: max-content;
+  margin: 0 auto;
+  gap: 80px 0;
+}
+
+@media (max-width: 921px) {
+  .soft-wrapper {
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    gap: 100px 0;
+  }
+}
+
+@media (max-width: 921px) {
+  .soft-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 80px 80px;
+  }
+}
+  
+@media ( max-width: 674px) {
+  .soft-wrapper {
+    flex-direction: column
+    max-width: max-content
+    margin: 0 auto
+    gap: 80px 0
+  }
+  .skills {
+    padding-top: 83px
+    padding-bottom: 98px
+    &__title
+      margin-bottom: 50px
+    &__subtitle
+      margin-bottom: 70px
+    }
+    }

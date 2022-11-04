@@ -1,0 +1,36 @@
+.about {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 120px 0 107px 0;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.about__text {
+  font-family: "Gilroy-Medium";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 43px;
+  max-width: 500px;
+  margin: 18px auto 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    padding-top: 81px;
+    padding-bottom: 76px;
+  }
+  .about__text {
+    max-width: 316px;
+    gap: 25px;
+  }
+}
+@media (max-width: 375px) {
+  .about__text {
+    max-width: 316px;
+    gap: 25px;
+  }
+}
